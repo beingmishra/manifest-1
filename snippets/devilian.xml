@@ -95,7 +95,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="devilian" revision="d10.0" />
 
   <!-- Prebuilt Repos -->
-  <project path="prebuilts/r8" name="prebuilts_r8" remote="lineage" revision="lineage-17.0" clone-depth="1" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" revision="lineage-17.0" clone-depth="1" />
   <project path="prebuilts/openssl" name="prebuilts_openssl" remote="devilian" revision="d10.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="devilian" revision="d10.0" clone-depth="1" />
 
