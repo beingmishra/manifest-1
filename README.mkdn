@@ -2,18 +2,6 @@
 
 <img src="https://i.imgur.com/m5vgkR5.png"> 
 
-Credits:
-=======
- * [**AOSP**](https://android.googlesource.com)
- * [**LineageOS**](https://github.com/LineageOS)
- * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
- * [**AospExtended**](https://github.com/AospExtended)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**ABC**](https://github.com/ezio84?tab=repositories)
- * [**RevengeOs**](https://github.com/RevengeOS)
- * [**POSP**](https://github.com/PotatoProject)
------------------------------------------------------------------------------
-
 Getting Started:
 ==============
 
@@ -42,5 +30,15 @@ source build/envsetup.sh
 lunch devilian_<devicecodename>-userdebug
 make bacon
 ```
+-----------------------------------------------------------------------------
+Credits:
+=======
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
+ * [**AospExtended**](https://github.com/AospExtended)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**POSP**](https://github.com/PotatoProject)
+ * [**PIXYS**](https://github.com/PixysOS)
 -----------------------------------------------------------------------------
 
