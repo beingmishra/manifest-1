@@ -16,10 +16,10 @@
           fetch="https://github.com/LineageOS/"
           revision="lineage-16.0" />
     
-  <remote name="pixys"
-          fetch="https://github.com/PixysOS-Beta/"
-          revision="android-10" />
-
+  <remote name="potato"
+          fetch="https://github.com/PotatoProject"
+          revision="refs/heads/croquette-release" />
+		  
   <project path="build/make" name="build" groups="pdk" remote="devilian" revision="d10.0">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -50,28 +50,6 @@
   <project path="system/update_engine" name="system_update_engine" remote="devilian" revision="d10.0" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="devilian" revision="d10.0" />
 
-   <!-- Hardware Repos -->
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="pixys" revision="android-10" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="pixys" revision="android-10-msm8998" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixys" revision="android-10" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="pixys" revision="android-10-msm8998" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixys" revision="android-10" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom,pdk" remote="pixys" revision="android-10-msm8998" />
-
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="devilian" revision="d10.0" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="devilian" revision="d10.0" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="devilian" revision="d10.0" />
-  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="devilian" revision="d10.0" />
-  <project path="hardware/ril-caf" name="hardware_ril" groups="qcom" remote="devilian" revision="d10.0-caf" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="devilian" revision="d10.0-caf" />
-  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="devilian" revision="d10.0" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="devilian" revision="d10.0-caf"/>
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="devilian" revision="d10.0" />
 
   <!-- Packages Repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="devilian" revision="d10.0" />
