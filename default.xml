@@ -770,5 +770,6 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/devilian.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
